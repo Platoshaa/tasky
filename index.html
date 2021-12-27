@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tasky</title>
+    <style>
+        .item{
+            display: flex;
+            justify-content: space-between;
+        }
+        .btns{
+            display: flex;
+        }
+        .app{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .done{
+            color: rgb(37, 117, 37);
+        }
+        .form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 2em;
+        }
+        .input.err{
+            border: 3px solid crimson;
+        }
+    </style>
+</head>
+<body>
+    <div class="app">
+        
+        <form class="form" action=""><input class="input" type="text"></form>
+        <button class="delete-all">удалить всё</button>
+        <select name="" id="">
+            <option selected value="all">all</option>
+            <option value="done">done</option>
+            <option value="doing">doing</option>
+        </select>
+        <div class="box">
+    
+    </div>
+  
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
